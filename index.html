@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Real-State</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Vite App</title>
   </head>
   <body>
     <nav
@@ -89,12 +89,12 @@
           <picture>
            <source
            media="(min-width: 765px)"
-           srcset="/big_hero_image.png"
+           srcset="public/big_hero_image.png"
    
          />
          <source media="(max-width: 768px)" srcset="/hero_building.png" />
          <img
-           src="/hero_building.png"
+           src="public/hero_building.png"
            alt="Small building"
            class="md:w-[500px]"
          />
@@ -170,19 +170,19 @@
       <!-- Brand Logos -->
       <section class=" md:py-5 max-w-[1200px] md:justify-between mx-auto flex gap-4 h-[100px] md:h-[200px] items-center overflow-x-auto">
         <div class="h-20 grid place-content-center">
-          <img class="min-w-[6rem] md:min-w-[8rem]" src="/brand/brand1.png" />
+          <img class="min-w-[6rem] md:min-w-[8rem]" src="public/brand/brand1.png" />
         </div>
         <div class="h-20 grid place-content-center">
-          <img class="min-w-[6rem] md:min-w-[8rem]" src="/brand/brand2.png" />
+          <img class="min-w-[6rem] md:min-w-[8rem]" src="public/brand/brand2.png" />
         </div>
         <div class="h-20 grid place-content-center">
-          <img class="min-w-[6rem] md:min-w-[8rem]" src="/brand/brand3.png" />
+          <img class="min-w-[6rem] md:min-w-[8rem]" src="piblic/brand/brand3.png" />
         </div>
         <div class="h-20 grid place-content-center">
-          <img class="min-w-[6rem] md:min-w-[8rem]" src="/brand/brand4.png" />
+          <img class="min-w-[6rem] md:min-w-[8rem]" src="public/brand/brand4.png" />
         </div>
         <div class="h-20 grid place-content-center">
-          <img class="min-w-[6rem] md:min-w-[8rem]" src="/brand/brand5.png" />
+          <img class="min-w-[6rem] md:min-w-[8rem]" src="public/brand/brand5.png" />
         </div>
       </section>
 
@@ -203,7 +203,7 @@
         <div class="flex mt-4 md:mt-20 gap-5 overflow-x-auto">
           <div class="flex flex-col gap-2 min-w-[16.25rem]">
             <div>
-              <img class="shadow-md md:w-[370px] md:h-[290px]" src="/service/service1.png" />
+              <img class="shadow-md md:w-[370px] md:h-[290px]" src="public/service/service1.png" />
             </div>
             <h3 class="text-lg font-semibold text-black-dark">Industrial</h3>
             <p class="text-base text-gray-dark">
@@ -213,7 +213,7 @@
           </div>
           <div class="flex flex-col gap-2 min-w-[16.25rem]">
             <div>
-              <img class="shadow-md md:w-[370px] md:h-[290px]" src="/service/service2.png" />
+              <img class="shadow-md md:w-[370px] md:h-[290px]" src="public/service/service2.png" />
             </div>
             <h3 class="text-lg md:text-xl font-semibold text-black-dark">Commercial</h3>
             <p class="text-gray-dark">
@@ -223,7 +223,7 @@
           </div>
           <div class="flex flex-col gap-2 min-w-[16.25rem]">
             <div>
-              <img class="shadow-md md:w-[370px] md:h-[290px]" src="/service/service3.png" />
+              <img class="shadow-md md:w-[370px] md:h-[290px]" src="public/service/service3.png" />
             </div>
             <h3 class="text-lg md:text-xl font-semibold text-black-dark">Resedential</h3>
             <p class="text-gray-dark">
@@ -258,7 +258,7 @@
         <div class="mt-10 md:mt-20 flex flex-col items-center text-center md:flex-row  md:justify-between">
           <div class="flex items-center flex-col gap-2 max-w-[14.625rem] md:h-[370px]">
             <div>
-              <img src="/features/icon1.png" />
+              <img src="public/features/icon1.png" />
             </div>
             <h3 class="mt-2 text-lg font-semibold text-black-dark">
               Experienced
@@ -270,7 +270,7 @@
           </div>
           <div class="flex items-center flex-col gap-2 max-w-[14.625rem] md:h-[370px]">
             <div>
-              <img src="/features/icon2.png" />
+              <img src="public/features/icon2.png" />
             </div>
             <h3 class="mt-2 text-lg font-semibold text-black-dark">
               Competitive price
@@ -282,7 +282,7 @@
           </div>
           <div class="flex items-center flex-col gap-2 max-w-[14.625rem] md:h-[370px]">
             <div>
-              <img src="/features/icon3.png" />
+              <img src="public/features/icon3.png" />
             </div>
             <h3 class="mt-2 text-lg font-semibold text-black-dark">On Time</h3>
             <p class="text-base text-gray-dark">
@@ -291,7 +291,7 @@
           </div>
           <div class="flex items-center flex-col gap-2 max-w-[14.625rem] md:h-[370px]">
             <div>
-              <img src="/features/icon4.png" />
+              <img src="public/features/icon4.png" />
             </div>
             <h3 class="mt-2 text-lg font-semibold text-black-dark">
               Best Materials
@@ -306,13 +306,13 @@
       <!-- Team Section -->
       <section class="p-5 max-w-[1200px] mx-auto flex flex-col lg:flex-row">
         <div
-          class="bg-[url('/team_bg.png')] h-[340px] bg-no-repeat bg-cover first-letter: flex justify-center items-end mb-40 lg:flex-1 lg:mr-40 lg:flex-col lg:justify-center lg:h-[500px]"
+          class="bg-[url('public/team_bg.png')] h-[340px] bg-no-repeat bg-cover first-letter: flex justify-center items-end mb-40 lg:flex-1 lg:mr-40 lg:flex-col lg:justify-center lg:h-[500px]"
         >
           <div
             class="flex flex-col items-center gap-2 black-grad h-[250px] w-[250px] relative top-24 lg:top-0 p-5 lg:-right-24"
           >
             <div>
-              <img src="/team_avatar.png" />
+              <img src="public/team_avatar.png" />
             </div>
             <h3 class="text-lg md:text-xl font-semibold text-white">Dianne Russell</h3>
             <p class="text-base text-white text-center">
@@ -336,7 +336,7 @@
             <button class="flex items-center gap-2">
               How it works
 
-              <img src="/arrow_icon.svg" />
+              <img src="public/arrow_icon.svg" />
             </button>
           </div>
         </div>
@@ -346,7 +346,7 @@
         class="p-5 flex flex-col gap-4 md:flex-row-reverse max-w-[1200px] mx-auto"
       >
         <img
-          src="/story_img.png"
+          src="public/story_img.png"
           class="w-full p-0 shadow-md max-w-[570px] flex-1 border-8 border-white"
         />
         <div class="flex flex-col gap-4 flex-1">
@@ -368,7 +368,7 @@
         <div class="flex mt-4 gap-5 overflow-x-auto">
           <div class="flex flex-col gap-2 min-w-[250px]">
             <div>
-              <img class="shadow-md md:w-[370px]" src="/service/service3.png" />
+              <img class="shadow-md md:w-[370px]" src="public/service/service3.png" />
             </div>
             <div class="flex gap-4 align-baseline">
               <div>
@@ -387,7 +387,7 @@
           </div>
           <div class="flex flex-col gap-2 min-w-[250px]">
             <div>
-              <img class="shadow-md md:w-[370px]" src="/service/service3.png" />
+              <img class="shadow-md md:w-[370px]" src="public/service/service3.png" />
             </div>
             <div class="flex gap-4 align-baseline">
               <div>
@@ -406,7 +406,7 @@
           </div>
           <div class="flex flex-col gap-2 min-w-[250px]">
             <div>
-              <img class="shadow-md md:w-[370px]" src="/service/service3.png" />
+              <img class="shadow-md md:w-[370px]" src="public/service/service3.png" />
             </div>
             <div class="flex gap-4 align-baseline">
               <div>
@@ -439,44 +439,44 @@
           <picture>
             <source
               media="(min-width: 799px)"
-              srcset="/bigProject/bigProject1.png"
+              srcset="public/bigProject/bigProject1.png"
             />
-            <source media="(max-width: 800px)" srcset="/project/project1.png" />
+            <source media="(max-width: 800px)" srcset="public/project/project1.png" />
             <img
-              src="/project/project1.png"
+              src="public/project/project1.png"
               alt="Chris standing up holding his daughter Elva"
             />
           </picture>
           <picture>
             <source
               media="(min-width: 799px)"
-              srcset="/bigProject/bigProject2.png"
+              srcset="public/bigProject/bigProject2.png"
             />
             <source media="(max-width: 800px)" srcset="/project/project2.png" />
             <img
-              src="/project/project2.png"
+              src="public/project/project2.png"
               alt="Chris standing up holding his daughter Elva"
             />
           </picture>
           <picture>
             <source
               media="(min-width: 799px)"
-              srcset="/bigProject/bigProject3.png"
+              srcset="public/bigProject/bigProject3.png"
             />
-            <source media="(max-width: 800px)" srcset="/project/project3.png" />
+            <source media="(max-width: 800px)" srcset="public/project/project3.png" />
             <img
-              src="/project/project3.png"
+              src="public/project/project3.png"
               alt="Chris standing up holding his daughter Elva"
             />
           </picture>
           <picture>
             <source
               media="(min-width: 799px)"
-              srcset="/bigProject/bigProject4.png"
+              srcset="public/bigProject/bigProject4.png"
             />
-            <source media="(max-width: 800px)" srcset="/project/project4.png" />
+            <source media="(max-width: 800px)" srcset="public/project/project4.png" />
             <img
-              src="/project/project4.png"
+              src="public/project/project4.png"
               alt="Chris standing up holding his daughter Elva"
             />
           </picture>
@@ -493,10 +493,10 @@
             of experience in building and carving out Indonesia's development.
           </p>
           <div class="flex mt-4 gap-2">
-            <img src="/social/logo1.svg" />
-            <img src="/social/logo2.svg" />
-            <img src="/social/logo3.svg" />
-            <img src="/social/logo4.svg" />
+            <img src="public/social/logo1.svg" />
+            <img src="public/social/logo2.svg" />
+            <img src="public/social/logo3.svg" />
+            <img src="public/social/logo4.svg" />
           </div>
         </div>
         <div class="flex gap-8">
@@ -539,6 +539,6 @@
         </div>
       </div>
     </footer>
-    <script type="module" src="main.js"></script>
+    <script type="module" src="/main.js"></script>
   </body>
 </html>
